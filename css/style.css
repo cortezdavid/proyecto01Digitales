@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f3f3f5;
+}
+
+header {
+    height: 50px;
+    background-color: #34a5dd;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    height: 100%;
+}
+
+nav img{
+    height: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+}
+
+button {
+    color: #fff;
+    background-color: #34a5dd;
+    border: none;
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.container,
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indexButton {
+    font-size: 20px;
+    padding: 5px 30px;
+}
+
+.block {
+    display: block;
+}
+
+/* ------index----- */
+
+
+.sectionOne {
+    height: calc(100vh - 50px);
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1Index {
+    font-size: 60px;
+}
+
+.sectionOne h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.sectionTwo {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #34a5dd;
+}
+
+.sectionTwo img {
+    width: 500px;
+    margin-right: 40px;
+}
+
+.sectionTwo p {
+    width: 600px;
+    font-size: 24px;
+}
+
+.sectionThree {
+    border-bottom: 5px solid #34a5dd;
+    margin-top: 40px;
+}
+
+.testimonyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.testimony {
+    width: 300px;
+    margin: 30px;
+}
+
+
+.sectionFour {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sectionFour .sectionProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sectionProducts div {
+    padding: 10px;
+    width: 300px;
+    background-color: #eeeeee;
+}
+
+.sectionProducts img {
+    width: 100%;
+}
+
+/* ------contacto------ */
+
+.mainContact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainContact h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    height: 400px;
+}
+
+.elementForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.elementForm:focus-within label {
+    color: #34a5dd;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: #f3f3f5;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+input:focus {
+    border-bottom: 2px solid #34a5dd;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.formButton {
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+
+/* ------nosotres----- */
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.videoContainer div {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.videoContainer h2 {
+    font-size: 30px;
+}
+
+.videoContainer p {
+    font-size: 20px;
+}
+
+/* ----galeria---- */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 5px;
+}
+
+
+
+/* -----productos----- */
+
+.containerProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border-bottom: 3px solid #34a5dd;
+    margin: 15px;
+
+}
+
+.product img {
+    width: 300px;
+}
+
+.product h3 {
+    font-weight: 400;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailButton {
+    padding: 5px 10px;
+}
+
+/* -----footer----- */
+
+footer {
+    background-color: #326e97;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footerContainer h3 {
+    margin-bottom: 15px;
+}

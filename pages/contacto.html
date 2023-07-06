@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionFusion - contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotres.html">Sobre Nosotres</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="h1">Contacto</h1>
+            <div class="mainContact">
+                <section>
+                    <h2>Formulario de contacto</h2>
+                    <form action="POST">
+                        <div class="elementForm">
+                            <label>Nombre</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="elementForm">
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="elementForm">
+                            <label>Teléfono</label>
+                            <input type="tel" required>
+                        </div>
+                        <div class="containerButtons">
+                            <button type="submit" class="formButton">ENVIAR</button>
+                            <button type="reset" class="formButton">REINICIAR</button>
+                        </div>
+                    </form>
+                </section>
+                <section>
+                    <h2>Ubicación</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d87753.76701389496!2d-58.43086949042543!3d-34.60788461712729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1688508899321!5m2!1ses-419!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer container">
+            <div>
+                <h3>CONTACTO</h3>
+                <p>Tel: 1234-5678</p>
+                <p>email: Nombre@email.com</p>
+                <p>Horario: Lunes a Viernes de 9 a 18hs</p>
+            </div>
+            <div>
+                <h3>ENLACES ÚTILES</h3>
+                <a href="contacto.html" class="block">Contacto</a>
+                <a href="galeria.html" class="block">Galeria</a>
+                <a href="productos.html" class="block">Productos</a>
+                <a href="nosotres.html" class="block">Nosotres</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
