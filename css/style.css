@@ -35,6 +35,7 @@ nav img{
 ul {
     display: flex;
     flex-wrap: wrap;
+    background-color: #34a5dd;
 }
 
 li {
